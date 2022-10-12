@@ -5,6 +5,9 @@
 **H**ybrid **L**ist **A**ware **T**ransformer **R**eranking, is a lightweight reranking framework for text retrieval. This framework is premised on combing the retrieval featuring and ranking feature with a list-wise encoder as the reranking model. More details can be found in our [paper](https://arxiv.org/abs/2205.10569).
 
 
+<p align="center">
+  <img src="./intro.png" width="700" />
+</p>
 
 **2022-03-17: HLATR got first place on [MS MARCO Passage Ranking Leaderboard](https://microsoft.github.io/MSMARCO-Passage-Ranking-Submissions/leaderboard/).**
   
