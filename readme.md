@@ -26,5 +26,11 @@ scikit-learn== 0.22
 If you feel the datasets helpful, please cite:
 
 ```
-
+@article{Zhang2022HLATREM,
+  title={HLATR: Enhance Multi-stage Text Retrieval with Hybrid List Aware Transformer Reranking},
+  author={Yanzhao Zhang and Dingkun Long and Guangwei Xu and Pengjun Xie},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2205.10569}
+}
 ```
