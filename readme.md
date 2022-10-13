@@ -28,7 +28,7 @@ scikit-learn== 0.22
 
 ## Citing us
 
-If you feel the datasets helpful, please cite:
+If you feel this paper helpful, please cite us:
 
 ```
 @article{Zhang2022HLATREM,
