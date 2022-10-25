@@ -1,4 +1,4 @@
-data_name="ecom"
+data_name="msmarco"
 pool_type="cls"
 gpu='0,1'
 bert_model="bert-base-chinese"

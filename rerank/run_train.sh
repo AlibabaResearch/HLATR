@@ -1,10 +1,10 @@
-TRAIN_DATA_DIR=train/video
-DEV_DATA_DIR=dev/video
-gpu="0,1"
-num_gpu=2
+TRAIN_DATA_DIR=$train_data
+DEV_DATA_DIR=$train_data
+gpu="0,1,2,3"
+num_gpu=4
 
 CUDA_VISBLE_DEVICES=$gpu python -m torch.distributed.launch --master_port 2056 --nproc_per_node $num_gpu run_marco.py \
-  --output_dir fintune_models/video_bert_base \
+  --output_dir fintune_models/bert \
   --model_name_or_path bert-base-chinese \
   --do_train \
   --train_dir ${TRAIN_DATA_DIR} \
@@ -25,4 +25,3 @@ CUDA_VISBLE_DEVICES=$gpu python -m torch.distributed.launch --master_port 2056 -
   --evaluation_strategy steps \
   --eval_steps 1000 \
   --save_steps 1000 \
-  --collaborative

@@ -1,6 +1,6 @@
 # Dense Passage Retrieval
 
-Code for training the dense passage retrieval model, building ANN index, query retrieval process and evaluation
+Code for training the dense passage retrieval model, building ANN index, query retrieval process and evaluation. You can also download the trained checkpoint of [coCondenser](https://huggingface.co/Luyu/co-condenser-marco/tree/main).
 
 ## Training
 
