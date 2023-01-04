@@ -26,6 +26,13 @@ faiss==1.7.0
 scikit-learn== 0.22 
 ```
 
+## Model Checkpoint
+Pre-trained anguage models for MS MARCO PassageRanking LearderBoard (including the retrieval and reranking model) has been gradually open-sourced through [ModelScope platform](https://modelscope.cn/models), welcome to download and experience.
+| Model Type  	| Model Name| Url                             	|
+|-----------	|------------	|--------------------------------------	|
+| Retrieval 	| CoROM    	| [nlp_corom_sentence-embedding_english-base](https://modelscope.cn/models/damo/nlp_corom_sentence-embedding_english-base/summary)                 	|   	| 
+| Reranking 	| CoROM-Reranking 	| [nlp_corom_passage-ranking_english-base](https://modelscope.cn/models/damo/nlp_corom_passage-ranking_english-base/summary) 	|
+
 ## Citing us
 
 If you feel this paper helpful, please cite us:
